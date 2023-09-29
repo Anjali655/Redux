@@ -15,13 +15,22 @@
 .img-wrapper img {
   width: 100px;
   margin-top: -10px;
+  height: 100px;
 }
 
 .cart-wrapper {
-  height: 100px;
+  /* height: 100px;
   width: 500px;
   border: 1px solid #ccc;
+  margin-left: 10%; */
+  height: auto;
+  width: 250px;
+  border: 1px solid #ccc;
   margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-wrapper button {
@@ -47,5 +56,23 @@
   width: 50px;
   position: absolute;
   right: 1%;
-  top: 1%;
+  top: 4.2%;
+}
+
+.cart-count{
+  position: absolute;
+  right: 18px;
+  top: 10px;
+  z-index: 1;
+  background-color: blueviolet;
+  opacity: 100%;
+  padding: 7px;
+  color: #fff;
+  border-radius: 50%;
+  width: 10px;
+  height: 20px;
+}
+
+.remove-btn{
+  margin-top: 8px;
 }
